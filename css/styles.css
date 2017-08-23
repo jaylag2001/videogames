@@ -1,108 +1,42 @@
+/*HOME PAGE*/
+
+.werid h1 {
+    text-align: left
+    
+}
+h3 {
+    
+}
+.werid {
+    text-align: center;
+    background: linear-gradient(black, purple, royalblue); 
+    color: white;
+    font-family: cursive;
+}
+
+img {
+    margin-bottom: 30px;
+}
+.werid img {
+    width: 400px;
+    height: auto;
+}
+/*END of Home page*/
+
+/*ACTION AND ADVENTURE PAGE*/
+
 .header-top {
     height: 175px;
     background: linear-gradient(to bottom, #41e0b3 0%, #41d8ee 100%)
-     }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-li {
-    float: left;
-}
-
-li a, .dropbtn {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
-}
-
-li.dropdown {
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.dropbtn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-    background-color: #3e8e41;
-
-
+    }
+    
+    
+    .dream {
+    float:right;
 }
 
 
-.row img {
+    .row img {
     margin-left:30px;
     margin-top:20px;
     border:3px solid #4dff4d;
@@ -111,36 +45,12 @@ li.dropdown {
     float:left;
     
 }
-
-.super {
-    margin:auto;
+.intro img {
+    width:;
 }
 
-.col-md-5 {
-    width:100%;
-}
-.h1 {
-    text-align: center
-}
-
-.werid h1 {
-    text-align: left
-}
-h3 {
+.button {
     
-}
-.werid {
-    text-align: center;
-     background: linear-gradient(black, purple, royalblue); 
-}
-
-img {
-    margin-bottom: 30px;
-}
-@media(min-width:992px){
-    img{
-        
-    }
 }
 
 .divider{
@@ -149,14 +59,24 @@ img {
     display:inline-block;
 }
 
-.button {
-    
+.super {
+    margin:auto;
 }
 
-.werid img {
-    width: 400px;
-    height: auto;
+.col-md-5 {
+    
 }
-.dream {
-    float:right;
+.h1 {
+    text-align: center
 }
+
+/*END Action and Adventure*/
+
+
+
+@media(min-width:992px){
+    
+    } 
+@media(max-width:992) {
+    
+    }
